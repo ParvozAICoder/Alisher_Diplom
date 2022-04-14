@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>MAIN</title>
+  </head>
+  <body>
+    <div class="logo">
+      <img src="./images/logo.png" alt="logo" />
+    </div>
+    <div class="main_content">
+      <div class="top_btns">
+        <button  type="button"  class="gen_stlye btn"  data-bs-toggle="modal" data-bs-target="#exampleModal">Stansiyaga poeyzdlarni qabul qilish</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <img src="./images/sxema.png" alt="sxema">
+                </div>
+                <div class="modal-body">
+                  <form class="main_form">
+                    <div class="left_inputs">   
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Lл">
+                            <label for="floatingInput">Lл</label>
+                          </div>
+                          <div class="form-floating inp_margin">
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="Lb">
+                            <label for="floatingPassword">Lb</label>
+                          </div>
+                          <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="m">
+                            <label for="floatingPassword">m</label>
+                          </div>
+                    </div>
+                    <div class="right_inputs">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="m">
+                            <label for="floatingPassword" style="font-size: 10px;">Кириш светафоридан йўлининг чегара устунигача ёки изостигача бўлган масофа</label>
+                        </div>
+                        <div class="form-floating inp_margin">
+                            <input type="text" class="form-control" id="floatingPassword" placeholder="m">
+                            <label for="floatingPassword"  style="font-size: 10px;">Поезднинг белгиланган масофада ҳаракатланишининг ўртача тезлиги, км/соат</label>
+                        </div>
+                        <button type="submit" class="btn_ok"> OK</button>
+                    </div>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        <div class="gen_stlye m_r">
+          <div class="btn_title">Vagonni ulash tarafi</div>
+          <select class="btn_select">
+              <option value="">Boshiga</option>
+              <option value="">O'rtasiga</option>
+              <option value="">Oxiriga</option>
+          </select>
+          <button type="button" class="btn btn_modal" data-bs-toggle="modal" data-bs-target="#exampleModal1">OK</button>
+        </div>
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                      <img src="./images/sxema.png" alt="sxema">
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="main_form">
+                        <div class="left_inputs ">   
+                            <div class="form-floating form-control form_select">
+                                <select>
+                                    <option>Tarkib aralash</option>
+                                    <option>Tarkib aralash</option>
+                                    <option>Tarkib aralash</option>
+                                </select>
+                              </div>
+                              <div class="form-floating">
+                                  <input type="text" class="form-control" id="floatingInput" placeholder="Lл">
+                                  <label for="floatingInput" style="font-size: 10px;">Yo`lning rahbar nishabligi</label>
+                                </div>
+                                <div class="form-floating inp_margin">
+                                  <input type="text" class="form-control" id="floatingPassword" placeholder="Lb">
+                                  <label for="floatingPassword">Lyтиш</label>
+                                </div>
+                                <div class="form-floating">
+                                  <input type="text" class="form-control" id="floatingPassword" placeholder="m">
+                                  <label for="floatingPassword" style="font-size: 10px;">Харакат таркибини маҳкамлаш ёки бўшатиш</label>
+                                </div>
+                          </div>
+                          <div class="right_inputs">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="Lл">
+                                <label for="floatingInput" style="font-size: 10px;">Рухсат этилган тезлик</label>
+                              </div>
+                              <div class="form-floating inp_margin">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="Lb">
+                                <label for="floatingPassword" style="font-size: 10px;">Вагонларни тижорий кўрикдан ўтказиш бригадалар сони</label>
+                              </div>
+                              <div class="form-floating inp_margin">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="m">
+                                <label for="floatingPassword" style="font-size: 10px;">Tarkibdan uziladigan vag soni</label>
+                              </div>
+                              <div class="form-floating">
+                                <input type="text" class="form-control" id="floatingPassword" placeholder="m">
+                                <label for="floatingPassword" style="font-size: 10px;">Поезд локомотивига очилган маршрут узунлиги</label>
+                              </div>
+                          </div>
+                      </div>
+                      <button type="submit inp_margin" style="margin-top: 30px;" class="btn_ok"> OK</button>
+                    </form>
+                  </div>
+                  
+                </div>
+              </div>
+          </div>
+       
+       
+        <button class="gen_stlye">3</button>
+      </div>
+
+      <div class="bottom_btns">
+        <button class="overcome">Overcome</button>
+      </div>
+    </div>
+  </body>
+  <script src="./bootstrap.bundle.min.js"></script>
+</html>
